@@ -1,5 +1,5 @@
 class Cats:
-
+"""This is a class that creates a cat"""
     def __init__(self, name, preffered_food, meal_time):
         self.name = name
         self.meal_time = meal_time
