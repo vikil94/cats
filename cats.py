@@ -21,7 +21,7 @@ class Cats:
     def __str__(self):
         return "This is your cat. Their name is {}, their favourite food is {}, and they eat at {}".format(self.name, self.preffered_food, self.eats_at())
 
-cat1 = Cats("Roscoe", "catnip", 23)
+cat1 = Cats("Roscoe", "tuna", 23)
 cat2 = Cats("Einstein", "tuna", 2)
 
 print(cat1)
